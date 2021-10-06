@@ -18,5 +18,5 @@ a:hover {
 .status {
     font-size: small;
     position: fixed;
-    bottom: 0;
+    bottom: 20;
 }
