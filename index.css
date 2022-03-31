@@ -3,19 +3,63 @@ body {
     color: black;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    display: block;
+    margin: 0;
 }
-a {
+.a {
     color: black;
 }
-a:visited {
+.a:visited {
     color: black;
 }
-a:hover {
+.a:hover {
     color: white;
     background-color: black;
 }
 .status {
-    font-size: small;
+    font-size: 10pt;
+    position: absolute;
+    bottom: 5px;
     text-align: center;
+    width: 100%;
+}
+.html-center {
+    text-align: center;
+}
+.menuicon {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 6px 0;
+}
+.menuicon-full {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+#menu {
+    background-color: rgba(37, 37, 37, 0.882);
+    width: 300px;
+    height: 60%;
+    position: absolute;
+    right: 32px;
+    top: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+.menu-item {
+    background-color: rgba(110, 110, 110, 0.882);
+    width: 100px;
+    height: 20%;
+    padding: 5px;
+}
+.a-item {
+    color: white;
+    text-decoration: none;
+}
+.a-item:visited {
+    color: white;
+    text-decoration: none;
 }
